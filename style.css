@@ -1,176 +1,171 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #191970; /* Updated text color */
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    max-width: 100%;
-    min-height: 100%;
-    background-color: #F0F8FF;
+  font-family: "Roboto", sans-serif;
+  color: #191970;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-height: 100%;
+  background-color: #f0f8ff;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 ul {
-    list-style:none;
+  list-style: none;
 }
 
 .header {
-    background-color:  #15154E;
-     /* Header color */
-    padding: 20px;  
-    height: 80px;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    position: relative; /* Allows absolute positioning within */
+  background-color: #15154e;
+  /* Header color */
+  padding: 20px;
+  height: 80px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: relative; /* Allows absolute positioning within */
 }
-.management{
-    /* width: 200px; */
-    display: flex;
-    justify-content: space-between;
+.management {
+  /* width: 200px; */
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-    position: absolute;
-    left: 20px;
-    border-radius: 8px;
-    top: 10px;
-    max-width: 100px; /* Adjust as needed */
+  position: absolute;
+  left: 20px;
+  border-radius: 8px;
+  top: 10px;
+  max-width: 100px; /* Adjust as needed */
 }
 .app_logo {
-    border-radius: 8px;
-    width: 150px; 
+  border-radius: 8px;
+  width: 150px;
 }
 
 .tos-link {
-    font-size: 18px;
-    margin-left: 20px;
-    color: white;
-    text-decoration: none;
+  font-size: 18px;
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
 }
 .app-block {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
-    margin: 20px auto;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    max-width: 1200px;
-    border-radius: 10px;
-    background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 1200px;
+  border-radius: 10px;
+  background-color: white;
 }
 
 .app-block img {
-    max-width: 200px; /* Adjust as needed */
+  max-width: 200px; /* Adjust as needed */
 }
 
 .app-text {
-    text-align: center;
-    flex-grow: 1;
-    margin: 0 20px;
+  text-align: center;
+  flex-grow: 1;
+  margin: 0 20px;
 }
 
 .cta-button {
-    background-color: #4CAF50; /* Green tone for the button */
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 15px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+  background-color: #4caf50; /* Green tone for the button */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .list-block {
-    width: 720px;
-    margin: 20px auto;
-    text-align: center;
-    margin-bottom: 100px;
+  width: 720px;
+  margin: 20px auto;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 .list-block ul {
-    list-style-type: none; /* Adds typical bullet points */
-    padding-left: 5px; /* Adds space for bullet points */
+  list-style-type: none; /* Adds typical bullet points */
+  padding-left: 5px; /* Adds space for bullet points */
 }
 
 .list-block li {
-    margin-bottom: 10px; /* Spacing between bullet points */
-
+  margin-bottom: 10px; /* Spacing between bullet points */
 }
 
 .footer-with-scroll {
-    background-color:  #15154E;/* Updated footer color */
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+  background-color: #15154e; /* Updated footer color */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
-.footer{
-    background-color:  #15154E;/* Updated footer color */
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
+.footer {
+  background-color: #15154e; /* Updated footer color */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
 }
 
 .content {
-    text-align: center;
-    padding: 20px;
+  text-align: left;
+  padding: 20px;
 }
 
 .text-block {
-    width: 800px;
-    margin: 0 auto; /* Centers the block */
-    text-align: left; /* Aligns text to the left */
+  width: 800px;
+  margin: 0 auto; /* Centers the block */
+  text-align: left; /* Aligns text to the left */
 }
 
 .app_screenshots {
-    margin-right: 5px;
-    border-radius: 8px;
+  margin-right: 5px;
+  border-radius: 8px;
 }
 
-.app_list {
-
-}
 .app_list_item {
-    text-align: left;
-    font-size: 18px;
-    margin-bottom: 5px;
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
-.app_subtitle{
-    margin-right: 25px;
-    margin-left: 25px;
-    text-align: left;
+.app_subtitle {
+  margin-right: 25px;
+  margin-left: 25px;
+  text-align: left;
 }
-.main_title{
-    color: #FFFFFF
+.main_title {
+  color: #ffffff;
 }
 .main_subtitle {
-    color: #FFFFFf;
-  
+  color: #ffffff;
 }
 .content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 80px;
 }
 .content_text {
-    max-width: 1200px;
+  max-width: 1200px;
 }
