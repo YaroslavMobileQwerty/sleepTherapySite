@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <title>Sleep Therapy — Privacy Policy</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" href="./assets/SleepTherapyLogo.png" />
+  </head>
+  <body>
+    <div class="header">
+      <a href="index.html"
+        ><img src="./assets/SleepTherapyLogo.png" alt="Logo" class="logo"
+      /></a>
+      <div class="management">
+        <a href="index.html" class="tos-link">Our Apps</a>
+        <a href="about-us.html" class="tos-link">About Us</a>
+        <a href="privacy-policy.html" class="tos-link">Privacy Policy</a>
+        <a href="terms-of-service.html" class="tos-link">Terms of Service</a>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="content_text">
+        <h1 class="h1">Privacy Policy / Політика конфіденційності</h1>
+        <p><em>Last updated: June 12, 2025 / Останнє оновлення: 12 червня 2025</em></p>
+
+        <div class="text">
+          <h2>English</h2>
+
+          <h3>1. Who we are</h3>
+          <p>
+            This Privacy Policy applies to the mobile application
+            <strong>Sleep Therapy: AI Assistant</strong> (package name:
+            <code>com.sleeptherapy</code>), developed by Yaroslav Pesotskyi
+            (“we”, “us”, “Sleep Therapy”).
+          </p>
+          <p>
+            Contact: <a href="mailto:sleeptherapy.app@gmail.com">sleeptherapy.app@gmail.com</a>
+          </p>
+
+          <h3>2. What data we collect</h3>
+          <p>We collect the following categories of data when you use the app:</p>
+          <ul>
+            <li>
+              <strong>Account and profile data:</strong> name, email address,
+              gender, date of birth (optional), and information received from
+              Google or Apple when you sign in.
+            </li>
+            <li>
+              <strong>Dream content:</strong> dream descriptions (typed or
+              voice-transcribed), AI interpretations, AI assistant chat
+              history, and AI-generated dream images you choose to save.
+            </li>
+            <li>
+              <strong>Mood data:</strong> selected mood, date, and optional text
+              notes; AI mood analysis results.
+            </li>
+            <li>
+              <strong>App settings:</strong> language, interpretation preferences,
+              notification times, sleep helper preferences.
+            </li>
+            <li>
+              <strong>Subscription data:</strong> subscription status and access
+              level (processed via RevenueCat and Google Play Billing).
+            </li>
+            <li>
+              <strong>Device and technical data:</strong> device identifiers,
+              crash reports, analytics, and ad-related data collected by
+              integrated SDKs (see Section 5).
+            </li>
+            <li>
+              <strong>Microphone:</strong> used only for speech-to-text when you
+              dictate a dream. We store the transcribed text only; raw audio is
+              not saved by the app.
+            </li>
+          </ul>
+          <p>
+            You can use some features without signing in. AI features require an
+            account.
+          </p>
+
+          <h3>3. How we use your data</h3>
+          <ul>
+            <li>Authenticate you and sync your data across devices.</li>
+            <li>Provide AI dream interpretation, mood analysis, and assistant chat.</li>
+            <li>Store your dream calendar and mood history.</li>
+            <li>Manage subscriptions and restore purchases.</li>
+            <li>Show ads to non-subscribers (via Google AdMob).</li>
+            <li>Improve app stability, analytics, and user experience.</li>
+            <li>Respond to support requests.</li>
+          </ul>
+
+          <h3>4. How and where data is stored</h3>
+          <p><strong>On your device:</strong></p>
+          <ul>
+            <li>
+              The app caches profile, dreams, moods, and settings locally using
+              AsyncStorage on your phone or tablet.
+            </li>
+            <li>
+              Local data remains until you delete the app, clear app data, delete
+              your account in Settings, or sign out (session tokens are cleared
+              on sign out).
+            </li>
+          </ul>
+          <p><strong>In the cloud:</strong></p>
+          <ul>
+            <li>
+              Account data, dreams, moods, interpretation settings, and
+              subscription records are stored in Supabase (PostgreSQL database
+              hosted in the cloud).
+            </li>
+            <li>
+              AI-generated dream images are stored in Supabase Storage (bucket:
+              <code>dream-images</code>).
+            </li>
+            <li>
+              Authentication is handled by Supabase Auth (Google / Apple sign-in).
+            </li>
+          </ul>
+          <p>
+            Data is transmitted over encrypted connections (HTTPS/TLS). Android
+            app backups are disabled (<code>allowBackup="false"</code>).
+          </p>
+
+          <h3>5. Third-party services</h3>
+          <p>We share data with the following service providers as needed to operate the app:</p>
+          <ul>
+            <li>
+              <strong>Supabase</strong> — authentication, database, file storage.
+              <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>
+            </li>
+            <li>
+              <strong>OpenAI</strong> — processing dream and mood text to generate
+              AI responses and images.
+              <a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a>
+            </li>
+            <li>
+              <strong>Google</strong> — AdMob ads, Firebase Analytics, Crashlytics,
+              Cloud Messaging, Sign-In, and speech recognition (via device OS).
+              <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>
+            </li>
+            <li>
+              <strong>Apple</strong> — Sign in with Apple (iOS).
+              <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Privacy Policy</a>
+            </li>
+            <li>
+              <strong>RevenueCat</strong> — subscription management.
+              <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">Privacy Policy</a>
+            </li>
+            <li>
+              <strong>Branch.io</strong> — deep links and attribution.
+              <a href="https://branch.io/policies/#privacy" target="_blank" rel="noopener">Privacy Policy</a>
+            </li>
+          </ul>
+
+          <h3>6. Data retention</h3>
+          <ul>
+            <li>
+              <strong>Account, dreams, moods, and profile data:</strong> stored
+              while your account is active. After we receive and process your
+              deletion request, we delete this data within
+              <strong>30 days</strong>.
+            </li>
+            <li>
+              <strong>Local cache on device:</strong> until you delete the app,
+              clear app storage, or sign out.
+            </li>
+            <li>
+              <strong>Analytics and advertising data:</strong> retained according
+              to Google and other providers’ policies (typically up to
+              <strong>14 months</strong> for Google Analytics).
+            </li>
+            <li>
+              <strong>Subscription and payment records:</strong> retained as
+              required by applicable tax and accounting laws.
+            </li>
+            <li>
+              <strong>Support emails:</strong> retained for up to
+              <strong>12 months</strong> after your request is resolved.
+            </li>
+          </ul>
+
+          <h3>7. How to delete your data</h3>
+          <p>
+            To delete your personal data and account, submit a deletion request
+            using one of the following methods:
+          </p>
+          <p><strong>Request in the app:</strong></p>
+          <ol>
+            <li>Open the app and sign in.</li>
+            <li>Go to <strong>Settings</strong>.</li>
+            <li>Tap <strong>Delete account</strong> and confirm your request.</li>
+          </ol>
+          <p>
+            This submits a deletion request to our team. We will process it and
+            delete your account data, dreams, moods, profile, and related cloud
+            records within <strong>30 days</strong>.
+          </p>
+          <p><strong>Request by email:</strong></p>
+          <p>
+            Send an email to
+            <a href="mailto:sleeptherapy.app@gmail.com?subject=Delete%20my%20data">sleeptherapy.app@gmail.com</a>
+            with the subject “Delete my data” from the email address linked to
+            your account. We will respond and complete deletion within
+            <strong>30 days</strong>.
+          </p>
+          <p><strong>Delete individual dreams:</strong></p>
+          <p>
+            You can delete a single dream entry from the dream calendar inside
+            the app at any time without contacting support.
+          </p>
+
+          <h3>8. Your rights</h3>
+          <p>
+            Depending on your location, you may have the right to access, correct,
+            delete, or restrict processing of your personal data, and to withdraw
+            consent. Contact us at
+            <a href="mailto:sleeptherapy.app@gmail.com">sleeptherapy.app@gmail.com</a>.
+          </p>
+
+          <h3>9. Children</h3>
+          <p>
+            The app is intended for users aged <strong>18 and older</strong>. We
+            do not knowingly collect data from children under 18.
+          </p>
+
+          <h3>10. Changes to this policy</h3>
+          <p>
+            We may update this Privacy Policy. Changes take effect when published
+            on this page. The “Last updated” date at the top will be revised
+            accordingly.
+          </p>
+
+          <hr />
+
+          <h2>Українська</h2>
+
+          <h3>1. Хто ми</h3>
+          <p>
+            Ця Політика конфіденційності застосовується до мобільного додатка
+            <strong>Sleep Therapy: AI Assistant</strong> (package name:
+            <code>com.sleeptherapy</code>), розробленого Ярославом Песоцьким
+            («ми», «Sleep Therapy»).
+          </p>
+          <p>
+            Контакт:
+            <a href="mailto:sleeptherapy.app@gmail.com">sleeptherapy.app@gmail.com</a>
+          </p>
+
+          <h3>2. Які дані ми збираємо</h3>
+          <ul>
+            <li>
+              <strong>Обліковий запис і профіль:</strong> ім’я, email, стать,
+              дата народження (за бажанням), дані від Google або Apple при вході.
+            </li>
+            <li>
+              <strong>Контент снів:</strong> описи снів (текст або голосовий
+              ввід), AI-тлумачення, історія чату з асистентом, згенеровані
+              зображення снів.
+            </li>
+            <li>
+              <strong>Настрій:</strong> обрана емоція, дата, текстові нотатки,
+              результати AI-аналізу настрою.
+            </li>
+            <li>
+              <strong>Налаштування додатка:</strong> мова, параметри тлумачення,
+              час нагадувань, налаштування сну.
+            </li>
+            <li>
+              <strong>Підписка:</strong> статус і рівень доступу (RevenueCat,
+              Google Play Billing).
+            </li>
+            <li>
+              <strong>Технічні дані:</strong> ідентифікатори пристрою, аналітика,
+              звіти про збої, рекламні дані через SDK (див. розділ 5).
+            </li>
+            <li>
+              <strong>Мікрофон:</strong> лише для перетворення мови в текст при
+              диктуванні сну. Аудіо не зберігається — лише текст.
+            </li>
+          </ul>
+
+          <h3>3. Навіщо використовуємо дані</h3>
+          <ul>
+            <li>Авторизація та синхронізація між пристроями.</li>
+            <li>AI-тлумачення снів, аналіз настрою, чат-асистент.</li>
+            <li>Календар снів і історія настрою.</li>
+            <li>Керування підписками.</li>
+            <li>Реклама для користувачів без підписки (Google AdMob).</li>
+            <li>Покращення стабільності та якості додатка.</li>
+            <li>Відповіді на звернення в підтримку.</li>
+          </ul>
+
+          <h3>4. Де і як зберігаються дані</h3>
+          <p><strong>На пристрої:</strong> локальний кеш (AsyncStorage) — до видалення додатка, очищення даних або виходу з акаунта.</p>
+          <p><strong>У хмарі:</strong> Supabase (PostgreSQL) — профіль, сни, настрій, налаштування, підписки; Supabase Storage — зображення снів; Supabase Auth — вхід через Google/Apple.</p>
+          <p>Дані передаються через HTTPS/TLS. Резервне копіювання Android вимкнено.</p>
+
+          <h3>5. Сторонні сервіси</h3>
+          <p>
+            Supabase, OpenAI, Google (AdMob, Firebase, Sign-In), Apple, RevenueCat,
+            Branch.io — з відповідними політиками конфіденційності на їхніх сайтах
+            (посилання в англомовній версії вище).
+          </p>
+
+          <h3>6. Терміни зберігання</h3>
+          <ul>
+            <li>
+              <strong>Дані акаунта, сни, настрій:</strong> поки акаунт активний;
+              після обробки вашого запиту на видалення — протягом
+              <strong>30 днів</strong>.
+            </li>
+            <li>
+              <strong>Локальний кеш:</strong> до видалення додатка, очищення
+              даних або виходу з акаунта.
+            </li>
+            <li>
+              <strong>Аналітика/реклама:</strong> згідно політик Google (до
+              <strong>14 місяців</strong> для Google Analytics).
+            </li>
+            <li>
+              <strong>Дані про підписки:</strong> згідно вимог податкового обліку.
+            </li>
+            <li>
+              <strong>Листи в підтримку:</strong> до <strong>12 місяців</strong>
+              після закриття звернення.
+            </li>
+          </ul>
+
+          <h3>7. Як видалити дані</h3>
+          <p>
+            Щоб видалити персональні дані та акаунт, подайте запит одним із
+            способів:
+          </p>
+          <p><strong>Запит у додатку:</strong></p>
+          <ol>
+            <li>Увійдіть у додаток.</li>
+            <li>Перейдіть у <strong>Налаштування</strong>.</li>
+            <li>Натисніть <strong>Видалити акаунт</strong> і підтвердіть запит.</li>
+          </ol>
+          <p>
+            Це надсилає запит на видалення нашій команді. Ми обробимо його та
+            видалимо дані акаунта, сни, настрій, профіль і пов’язані записи в
+            хмарі протягом <strong>30 днів</strong>.
+          </p>
+          <p><strong>Запит електронною поштою:</strong></p>
+          <p>
+            Напишіть на
+            <a href="mailto:sleeptherapy.app@gmail.com?subject=Delete%20my%20data">sleeptherapy.app@gmail.com</a>
+            з темою «Delete my data» з email, прив’язаного до вашого акаунта.
+            Відповімо та виконаємо видалення протягом <strong>30 днів</strong>.
+          </p>
+          <p><strong>Окремий сон:</strong> можна видалити в календарі снів без звернення в підтримку.</p>
+
+          <h3>8. Ваші права</h3>
+          <p>
+            Ви можете запитати доступ, виправлення або видалення даних, обмеження
+            обробки або відкликання згоди — напишіть на
+            <a href="mailto:sleeptherapy.app@gmail.com">sleeptherapy.app@gmail.com</a>.
+          </p>
+
+          <h3>9. Діти</h3>
+          <p>Додаток призначений для користувачів <strong>від 18 років</strong>.</p>
+
+          <h3>10. Зміни політики</h3>
+          <p>
+            Ми можемо оновлювати цю Політику. Нова версія набирає чинності з
+            моменту публікації на цій сторінці.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-with-scroll">
+      <p>©2025 Yaroslav Pisotskyi All Rights Reserved.</p>
+      <p>E-mail: sleeptherapy.app@gmail.com</p>
+    </div>
+  </body>
+</html>
