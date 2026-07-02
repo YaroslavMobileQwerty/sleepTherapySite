@@ -1,57 +1,217 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
   <head>
-    <title>SleepTherapy</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Yaroslav Pisotskyi offers end-to-end mobile development: React Native architecture, subscriptions, AI integrations, CI/CD and App Store releases."
+    />
+    <meta property="og:title" content="About & Services · Yaroslav Pisotskyi" />
+    <meta
+      property="og:description"
+      content="Independent mobile engineer. Full products, not just features — React Native, monetization, AI, releases."
+    />
+    <meta property="og:image" content="./assets/og-cover.png" />
+    <meta property="og:type" content="website" />
+    <title>About & Services · Yaroslav Pisotskyi</title>
     <link rel="icon" href="./assets/SleepTherapyLogo.png" />
+    <link rel="apple-touch-icon" href="./assets/SleepTherapyLogo.png" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="header">
-      <a href="index.html"
-        ><img src="./assets/SleepTherapyLogo.png" alt="Logo" class="logo"
-      /></a>
-      <div class="management">
-        <a href="index.html" class="tos-link">Our Apps</a>
-        <a href="about-us.html" class="tos-link">About Us</a>
-        <a href="privacy-policy.html" class="tos-link">Privacy Policy</a>
-        <a href="terms-of-service.html" class="tos-link">Terms of Service</a>
-      </div>
-    </div>
-
-    <div class="list-block">
-      <h1>Our Services:</h1>
+    <nav class="nav">
+      <a class="logo" href="index.html">Yaroslav Pisotskyi<span> · Mobile</span></a>
       <ul>
-        <li class="app_list_item">
-          <h3>Expertise in Development:</h3>
-          We have years of experience in developing mobile applications for
-          various platforms, enabling us to guarantee high quality and product
-          efficiency.
-        </li>
-        <li class="app_list_item">
-          <h3>Personalized Approach:</h3>
-          We offer a tailored approach to each project, taking your needs and
-          goals into account. This allows us to create unique applications that
-          meet your specific requirements.
-        </li>
-        <li class="app_list_item">
-          <h3>Innovative Technologies:</h3>
-          We continuously improve and use cutting-edge technologies in mobile
-          app development. This enables us to build modern and functional
-          software that aligns with the latest market demands.
-        </li>
-        <li class="app_list_item">
-          <h3>Support and Maintenance:</h3>
-          After the app is launched, we provide a full range of support and
-          maintenance services, including bug fixes, updates, and other
-          technical issues to ensure the reliable performance of your software
-          product.
-        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html" class="active">About</a></li>
+        <li><a href="privacy-policy.html">Privacy</a></li>
+        <li><a href="terms-of-service.html">Terms</a></li>
       </ul>
-    </div>
+      <a href="index.html#contact" class="cta">Contact</a>
+    </nav>
 
-    <div class="footer">
-      <p>©2025 Yaroslav Pisotskyi All Rights Reserved.</p>
-      <p>E-mail: sleeptherapy.app@gmail.com</p>
-    </div>
+    <header class="page-header">
+      <div class="kicker">About · Services</div>
+      <h1>Independent mobile engineer.<br />Full products, not just features.</h1>
+      <p class="lead">
+        I help teams and founders ship React Native apps end-to-end — from
+        architecture and monetization to App Store review and post-launch growth.
+      </p>
+    </header>
+
+    <section class="section fade-in">
+      <div class="section-inner">
+        <div class="eyebrow">What I offer</div>
+        <h2>Services built on six years of shipping.</h2>
+        <div class="services-grid">
+          <div class="card">
+            <h3>Full mobile apps in React Native</h3>
+            <p>
+              Architecture, navigation, state management, native modules, and
+              production releases to the App Store and Google Play — from zero to
+              live users.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Monetization & subscriptions</h3>
+            <p>
+              RevenueCat, Qonversion, in-app purchases, paywalls, restore
+              purchases, and fee optimization for paid traffic at scale.
+            </p>
+          </div>
+          <div class="card">
+            <h3>AI integrations</h3>
+            <p>
+              OpenAI and Gemini APIs, streaming chat, file and image intake,
+              prompt design, and safe handling of sensitive user data.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Real-time & backend</h3>
+            <p>
+              Supabase, Firebase, Centrifugo, auth flows, cloud sync, and
+              scalable data models for mobile-first products.
+            </p>
+          </div>
+          <div class="card">
+            <h3>CI/CD & release ops</h3>
+            <p>
+              Fastlane, EAS, automated builds, store compliance, review
+              preparation, and post-release monitoring with Sentry and
+              Crashlytics.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Product growth</h3>
+            <p>
+              A/B testing with GrowthBook, analytics pipelines, engagement
+              features (haptics, animations), and hands-on ASO basics.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fade-in" style="padding-top: 0">
+      <div class="section-inner">
+        <div class="eyebrow">Process</div>
+        <h2>How I work.</h2>
+        <div class="process-steps">
+          <div class="process-step">
+            <h3>Discovery</h3>
+            <p>
+              Define scope, monetization model, and technical constraints before
+              writing code.
+            </p>
+          </div>
+          <div class="process-step">
+            <h3>Architecture</h3>
+            <p>
+              Choose the right stack — FSD, state, backend, analytics — for
+              scale and maintainability.
+            </p>
+          </div>
+          <div class="process-step">
+            <h3>Ship weekly</h3>
+            <p>
+              Iterative releases with CI/CD, feature flags, and store-ready
+              builds every sprint.
+            </p>
+          </div>
+          <div class="process-step">
+            <h3>Growth loop</h3>
+            <p>
+              Measure, A/B test, optimize subscriptions and retention after
+              launch.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fade-in" style="padding-top: 0">
+      <div class="section-inner">
+        <div class="eyebrow">Experience</div>
+        <h2>Selected engagements.</h2>
+        <div class="engagements">
+          <div class="engagement-item">
+            <div class="yr">2025 →</div>
+            <div class="desc">
+              <strong>Senior RN Engineer</strong>
+              <span> · Confidential product (NDA) — end-to-end mobile from scratch, FSD architecture, real-time chat, Qonversion monetization.</span>
+            </div>
+          </div>
+          <div class="engagement-item">
+            <div class="yr">2020 – 25</div>
+            <div class="desc">
+              <strong>Senior RN Engineer</strong>
+              <span> · Qwerty Software — multiple production apps, CI/CD with Fastlane, mentoring, cross-functional delivery.</span>
+            </div>
+          </div>
+          <div class="engagement-item">
+            <div class="yr">2025</div>
+            <div class="desc">
+              <strong>Founder & Engineer</strong>
+              <span> · Sleep Therapy — AI dream app, Supabase, RevenueCat, App Store + Google Play launch and growth.</span>
+            </div>
+          </div>
+          <div class="engagement-item">
+            <div class="yr">2026</div>
+            <div class="desc">
+              <strong>Founder & Engineer</strong>
+              <span> · VitaminHelper — AI vitamin coach, Expo, Supabase, health-adjacent data, subscriptions.</span>
+            </div>
+          </div>
+          <div class="engagement-item">
+            <div class="yr">2023 – 24</div>
+            <div class="desc">
+              <strong>React Native Engineer</strong>
+              <span> · YouSlim — rebuilt app from scratch, custom subscription system, video player, fitness features.</span>
+            </div>
+          </div>
+          <div class="engagement-item">
+            <div class="yr">2025</div>
+            <div class="desc">
+              <strong>Sole Mobile Engineer</strong>
+              <span> · Progressive83 — Auth0, Branch deep linking, React Query, high-engineering-culture environment.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section fade-in">
+      <h2>Let's build something together.</h2>
+      <p>
+        Open to senior contracts and long-term product roles. Tell me about
+        your mobile idea — I'll help you ship it.
+      </p>
+      <div class="actions">
+        <a class="btn btn-primary" href="mailto:sleeptherapy.app@gmail.com">Email me</a>
+        <a
+          class="btn btn-ghost"
+          href="https://linkedin.com/in/yaroslav-pisotskyi"
+          target="_blank"
+          rel="noopener"
+          >LinkedIn</a
+        >
+        <a class="btn btn-ghost" href="index.html">View my apps</a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div>
+        <div>© 2026 Yaroslav Pisotskyi · All rights reserved.</div>
+        <div>sleeptherapy.app@gmail.com</div>
+      </div>
+      <div class="links">
+        <a href="index.html">Home</a> ·
+        <a href="privacy-policy.html">Privacy Policy</a> ·
+        <a href="terms-of-service.html">Terms of Service</a>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
   </body>
 </html>

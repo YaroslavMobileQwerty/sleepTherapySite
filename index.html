@@ -1,118 +1,318 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
   <head>
-    <title>SleepTherapy</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="icon" href="./assets/SleepTherapyLogo.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Yaroslav Pisotskyi — Senior React Native engineer and founder. Mobile products end-to-end: VitaminHelper, Sleep Therapy, Dream Oracle."
+    />
+    <meta property="og:title" content="Yaroslav Pisotskyi · Mobile Products" />
+    <meta
+      property="og:description"
+      content="Senior React Native engineer and startup founder. I build mobile apps from idea to the App Store and Google Play."
+    />
+    <meta property="og:image" content="./assets/og-cover.png" />
+    <meta property="og:type" content="website" />
     <meta
       name="facebook-domain-verification"
       content="kocvrwxkydr9ayyx5vg0ixeuf3xdaw"
     />
+    <title>Yaroslav Pisotskyi · Mobile Products</title>
+    <link rel="icon" href="./assets/SleepTherapyLogo.png" />
+    <link rel="apple-touch-icon" href="./assets/SleepTherapyLogo.png" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="header">
-      <a href="index.html"
-        ><img src="./assets/SleepTherapyLogo.png" alt="Logo" class="logo"
-      /></a>
-      <div class="management">
-        <a href="index.html" class="tos-link">Our Apps</a>
-        <a href="about-us.html" class="tos-link">About Us</a>
-        <a href="privacy-policy.html" class="tos-link">Privacy Policy</a>
-        <a href="terms-of-service.html" class="tos-link">Terms of Service</a>
+    <nav class="nav">
+      <a class="logo" href="index.html">Yaroslav Pisotskyi<span> · Mobile</span></a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#vh">VitaminHelper</a></li>
+        <li><a href="#st">Sleep Therapy</a></li>
+        <li><a href="#dt">Dream Oracle</a></li>
+        <li><a href="about-us.html">Services</a></li>
+      </ul>
+      <a href="#contact" class="cta">Contact</a>
+    </nav>
+
+    <header class="hero" id="top">
+      <div class="kicker">Senior React Native Engineer · Founder</div>
+      <h1>
+        I build <span class="grad">mobile products</span><br />
+        from idea to the store.
+      </h1>
+      <p class="lead">
+        6+ years shipping React Native apps end-to-end — architecture,
+        monetization, AI integrations, releases. Three of them are my own.
+      </p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#vh">See the apps →</a>
+        <a class="btn btn-ghost" href="#contact">Work with me</a>
       </div>
-    </div>
-    <h1>Our Apps:</h1>
 
-    <div class="app-block">
-      <img
-        src="./assets/SleepTherapyLogo.png"
-        alt="App Logo"
-        class="app_logo"
-      />
-      <div class="app-text">
-        <h3>Sleep Therapy: AI Assistant</h3>
-
-        <ul class="app_list">
-          <li class="app_list_item">
-            Sleep Therapy is your personal companion for better sleep, emotional
-            balance, and meaningful dream insights. Whether you want to
-            understand your dreams, reflect on your feelings, or simply unwind
-            before bed, Sleep Therapy has everything you need in one place.
-          </li>
-          <li class="app_list_item">
-            Our AI-powered dream interpretation helps you uncover the hidden
-            meaning behind your dreams with just one tap. Easily record your
-            dream by voice or text, and save it directly to your personal dream
-            calendar for future reflection.
-          </li>
-          <li class="app_list_item">
-            Track your mood daily and let Sleep Therapy identify emotional
-            patterns that influence your sleep and dreams. With this smart
-            analysis, you’ll receive helpful tips tailored to your well-being.
-          </li>
-          <li class="app_list_item">
-            Fall asleep peacefully with soothing animations and calming
-            soundscapes. Sleep Therapy is more than just an app — it’s a nightly
-            ritual designed to guide you toward better rest and deeper
-            self-awareness.
-          </li>
-        </ul>
-        <h2>
-          Already on
-          <a
-            href="https://play.google.com/store/apps/details?id=com.sleeptherapy"
-            >Play Market</a
-          >
-          and
-          <a
-            href="https://apps.apple.com/us/app/sleep-therapy-ai-assistant/id6739349632"
-            >App Store</a
-          >
-        </h2>
+      <div class="stats">
+        <div class="stat">
+          <div class="n">6+</div>
+          <div class="l">Years shipping</div>
+        </div>
+        <div class="stat">
+          <div class="n">3</div>
+          <div class="l">Own apps live</div>
+        </div>
+        <div class="stat">
+          <div class="n">2</div>
+          <div class="l">Stores · iOS + Android</div>
+        </div>
+        <div class="stat">
+          <div class="n">∞</div>
+          <div class="l">A/B tested</div>
+        </div>
       </div>
-    </div>
-    <div class="app-block">
-      <img src="./assets/app_logo.png" alt="App Logo" class="app_logo" />
+    </header>
 
-      <div class="app-text">
-        <h3>Dream Oracle — an app for decoding your dreams</h3>
-        <ul class="app_list">
-          <li class="app_list_item">
-            The app uses advanced dream analysis algorithms, allowing you to get
-            a detailed breakdown of your dreams. It reveals hidden meanings,
-            symbolism, and possible interpretations, helping you understand your
-            psychological state and needs.
-          </li>
-          <li class="app_list_item">
-            The app is easy to use and available on multiple platforms, making
-            it accessible to a wide range of users. It features an intuitive
-            interface that makes it easy to understand the dream decoding
-            results.
-          </li>
-          <li class="app_list_item">
-            Understanding your dreams can help you better understand yourself
-            and your emotions. The app provides you with a tool for
-            self-discovery and personal growth.
-          </li>
-          <li class="app_list_item">
-            Dream analysis can be beneficial for supporting mental health. The
-            app helps users make sense of their dreams and can contribute to
-            reduced stress, improved sleep, and overall well-being.
-          </li>
-        </ul>
-        <h2>
-          Already on
-          <a
-            href="https://play.google.com/store/apps/details?id=com.dreamoracle"
-            >Play Market</a
-          >
-        </h2>
+    <section class="section fade-in" id="about">
+      <div class="section-inner">
+        <div class="eyebrow">About</div>
+        <h2>Mobile engineer who ships full products.</h2>
+        <div class="about-body">
+          <div>
+            <p>
+              I lead mobile products from a blank Figma to the App Store and
+              Google Play. Architecture, monetization, analytics, releases — I
+              own the stack top to bottom.
+            </p>
+            <p>
+              Currently Senior React Native Engineer at a confidential product
+              company (NDA), previously 5 years at Qwerty Software. In parallel
+              I run my own apps — Sleep Therapy, VitaminHelper — to keep my
+              hands on product growth, not just code.
+            </p>
+            <p class="skills">
+              React Native · Expo · TypeScript · Supabase · RevenueCat ·
+              Qonversion · Reanimated · Firebase · Fastlane
+            </p>
+          </div>
+          <div class="timeline">
+            <div class="tl-item">
+              <div class="yr">2025 →</div>
+              <div>
+                <div class="ti">Senior RN Engineer</div>
+                <div class="co">Confidential product (NDA)</div>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="yr">2020 – 25</div>
+              <div>
+                <div class="ti">Senior RN Engineer</div>
+                <div class="co">Qwerty Software</div>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="yr">2020</div>
+              <div>
+                <div class="ti">Front-end Developer</div>
+                <div class="co">Noosphere · Roku / BrightScript</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
-    <div class="footer-with-scroll">
-      <p>©2025 Yaroslav Pisotskyi All Rights Reserved.</p>
-      <p>E-mail: sleeptherapy.app@gmail.com</p>
-    </div>
+    <section class="app app-vh fade-in" id="vh">
+      <div class="app-inner">
+        <div class="app-text">
+          <div class="eyebrow-color">VitaminHelper · 2026</div>
+          <h3>Your AI vitamin coach.</h3>
+          <p class="tagline">
+            Upload your blood tests or describe how you feel — get a personal
+            vitamin plan, reminders, and a routine that actually sticks.
+          </p>
+          <ul class="features">
+            <li>
+              AI chat that reads your lab tests (photo or file) and suggests a
+              plan you can save with one tap.
+            </li>
+            <li>
+              Personal course builder with reminders, daily tracker, and a
+              green/red streak calendar.
+            </li>
+            <li>
+              Knowledge base of every vitamin and mineral with iHerb / Amazon
+              affiliate links.
+            </li>
+            <li>
+              Onboarding quiz for maximum personalization — problem-driven or
+              lab-driven flow.
+            </li>
+          </ul>
+          <div class="stores">
+            <span class="store-btn disabled">Coming soon · <span class="sm">App Store</span></span>
+            <span class="store-btn disabled">Coming soon · <span class="sm">Google Play</span></span>
+          </div>
+        </div>
+        <div class="app-visual">
+          <div class="visual-wrap">
+            <div class="visual-glow"></div>
+            <div class="phone-mock">
+              <div
+                class="phone-screen"
+                style="background: linear-gradient(160deg, #2a1305 0%, #ff8a3d 100%)"
+              >
+                <img src="./assets/VitaminHelperLogo.png" alt="VitaminHelper" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="app app-st reverse fade-in" id="st">
+      <div class="app-inner">
+        <div class="app-visual">
+          <div class="visual-wrap">
+            <div class="visual-glow"></div>
+            <div class="phone-mock">
+              <div
+                class="phone-screen"
+                style="background: linear-gradient(160deg, #0d0d3a 0%, #6b6bff 100%)"
+              >
+                <img src="./assets/SleepTherapyLogo.png" alt="Sleep Therapy" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="app-text">
+          <div class="eyebrow-color">Sleep Therapy · 2025</div>
+          <h3>Decode your dreams. Reset your sleep.</h3>
+          <p class="tagline">
+            An AI companion for better sleep — dream interpretation, mood
+            tracking, and a nightly ritual of calming sounds and animations.
+          </p>
+          <ul class="features">
+            <li>
+              One-tap AI dream interpretation by voice or text, saved to your
+              calendar.
+            </li>
+            <li>
+              Daily mood tracking with weekly AI analysis that spots patterns.
+            </li>
+            <li>
+              Sleep helper: soothing soundscapes, Lottie animations, gentle
+              reminders.
+            </li>
+            <li>
+              Built end-to-end: architecture, Supabase backend, RevenueCat,
+              growth.
+            </li>
+          </ul>
+          <div class="stores">
+            <a
+              class="store-btn"
+              href="https://apps.apple.com/us/app/sleep-therapy-ai-assistant/id6739349632"
+              target="_blank"
+              rel="noopener"
+              >App Store · <span class="sm">Download</span></a
+            >
+            <a
+              class="store-btn"
+              href="https://play.google.com/store/apps/details?id=com.sleeptherapy"
+              target="_blank"
+              rel="noopener"
+              >Google Play · <span class="sm">Download</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="app app-dt fade-in" id="dt">
+      <div class="app-inner">
+        <div class="app-text">
+          <div class="eyebrow-color">Dream Oracle · earlier</div>
+          <h3>Where it all started.</h3>
+          <p class="tagline">
+            The first version of my dream-analysis product — the app that
+            taught me what shipping to the stores really means.
+          </p>
+          <ul class="features">
+            <li>
+              Dream analysis with symbolism, hidden meanings and psychological
+              cues.
+            </li>
+            <li>
+              Simple, focused interface — a self-discovery tool with zero
+              friction.
+            </li>
+            <li>
+              My first published app: full RN stack, Firebase, IAP, ads.
+            </li>
+            <li>Now living on as the foundation for Sleep Therapy.</li>
+          </ul>
+          <div class="stores">
+            <a
+              class="store-btn"
+              href="https://play.google.com/store/apps/details?id=com.dreamoracle"
+              target="_blank"
+              rel="noopener"
+              >Google Play · <span class="sm">Download</span></a
+            >
+          </div>
+        </div>
+        <div class="app-visual">
+          <div class="visual-wrap">
+            <div class="visual-glow"></div>
+            <div class="phone-mock">
+              <div
+                class="phone-screen"
+                style="background: linear-gradient(160deg, #05061e 0%, #1e3a8a 100%)"
+              >
+                <img src="./assets/app_logo.png" alt="Dream Oracle" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section fade-in" id="contact">
+      <h2>Have a mobile product to ship?</h2>
+      <p>
+        Available for senior contract work and long-term product roles. I
+        specialise in end-to-end mobile — from architecture to App Store review.
+      </p>
+      <div class="actions">
+        <a class="btn btn-primary" href="mailto:sleeptherapy.app@gmail.com">Email me</a>
+        <a
+          class="btn btn-ghost"
+          href="https://linkedin.com/in/yaroslav-pisotskyi"
+          target="_blank"
+          rel="noopener"
+          >LinkedIn</a
+        >
+        <a
+          class="btn btn-ghost"
+          href="https://github.com/YaroslavMobileQwerty"
+          target="_blank"
+          rel="noopener"
+          >GitHub</a
+        >
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div>
+        <div>© 2026 Yaroslav Pisotskyi · All rights reserved.</div>
+        <div>sleeptherapy.app@gmail.com</div>
+      </div>
+      <div class="links">
+        <a href="about-us.html">About</a> ·
+        <a href="privacy-policy.html">Privacy Policy</a> ·
+        <a href="terms-of-service.html">Terms of Service</a>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
   </body>
 </html>
