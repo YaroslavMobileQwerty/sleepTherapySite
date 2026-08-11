@@ -12,6 +12,7 @@
   --border-strong: rgba(255, 255, 255, 0.18);
   --glass: rgba(10, 10, 15, 0.72);
 
+  --pl: #e84a6f;
   --vh: #ff8a3d;
   --st: #8f8fff;
   --dt: #6d88d1;
@@ -524,6 +525,20 @@ h3 {
   cursor: default;
 }
 
+.app-pl {
+  background: linear-gradient(180deg, transparent, rgba(232, 74, 111, 0.07) 40%, transparent);
+}
+
+.app-pl .eyebrow-color,
+.app-pl .features li::before {
+  color: var(--pl);
+  background: var(--pl);
+}
+
+.app-pl .visual-glow {
+  background: radial-gradient(circle at center, rgba(232, 74, 111, 0.4), transparent 60%);
+}
+
 .app-vh {
   background: linear-gradient(180deg, transparent, rgba(255, 138, 61, 0.06) 40%, transparent);
 }
@@ -934,6 +949,11 @@ h3 {
   border-radius: 4px;
   margin-right: 6px;
   margin-bottom: 6px;
+}
+
+.app-badge.pl {
+  background: rgba(232, 74, 111, 0.15);
+  color: var(--pl);
 }
 
 .app-badge.vh {
